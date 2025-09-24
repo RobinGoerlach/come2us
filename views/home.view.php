@@ -1,8 +1,8 @@
-<!--php require('../helper.php');  ?-->
-<?php require basePath('views/partials/head.php'); ?>
-<?php require basePath('views/partials/navbar.php'); ?>
-<?php require basePath('views/partials/search.php'); ?>
-<?php require basePath('views/partials/topbanner.php'); ?>
+<!--php require('../helper.php'); ?> already in index.php -->
+<?php loadPartial('head'); ?>
+<?php loadPartial('navbar'); ?>
+<?php loadPartial('search'); ?>
+<?php loadPartial('topbanner'); ?>
 
     <!-- Job Listings -->
     <section>
@@ -194,6 +194,5 @@
         </a>
       </section>
 
-
-<?php require basePath('views/partials/bottom.php'); ?>
-<?php require basePath('views/partials/footer.php'); ?>
+<?php loadPartial('bottom'); ?>
+<?php loadPartial('footer'); ?>
